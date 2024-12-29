@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 
 export default function Home() {
   const [showHeart, setShowHeart] = useState(false);
@@ -116,7 +116,7 @@ export default function Home() {
                 To My Beautiful Bubbles
               </h2>
               <p className="text-lg text-gray-200 leading-relaxed">
-                Happy birthday to my most amazing and beautiful friend! 8 years have passed like a moment, yet they are filled with so much love and unforgettable memories. I know I've been bitchy sometimes, but you've always been my support and the safe space I turn to in my weakest moments. Having you by my side is one of the greatest blessings I thank God for every single day. You're more than a friend—you're my sister and my second soul, and every moment I've spent with you has been among the best years of my life. I hope our friendship lasts forever because life is so much better and kinder with you in it. I love you more than words can ever express, and I pray that your life is always filled with happiness and success.
+                Happy birthday to my most amazing and beautiful friend! 8 years have passed like a moment, yet they are filled with so much love and unforgettable memories. I know I&apos;ve been bitchy sometimes, but you&apos;ve always been my support and the safe space I turn to in my weakest moments. Having you by my side is one of the greatest blessings I thank God for every single day. You&apos;re more than a friend—you&apos;re my sister and my second soul, and every moment I&apos;ve spent with you has been among the best years of my life. I hope our friendship lasts forever because life is so much better and kinder with you in it. I love you more than words can ever express, and I pray that your life is always filled with happiness and success.
               </p>
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function Home() {
           onClick={handleHeartClick}
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-pink-300">
-            Here's to You, IRENE
+            Here&apos;s to You, IRENE
           </h2>
           <p className="text-xl text-gray-200">
             May your 21st year be filled with sparkles, joy, and endless magic ✨
